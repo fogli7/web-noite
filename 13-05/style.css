@@ -5,8 +5,10 @@
     text-decoration: none;
 }
 
+/* head */
+
 header nav{
-    background-color: rgb(37, 90, 48);
+    background-color: rgb(32, 34, 33);
     padding: 9px;
     flex-direction: row;
     display: flex;
@@ -38,20 +40,17 @@ header ul li a button{
     border-color: white;
 }
 
-.linha{
-    width: 100%;
-    height: 80px;
-}
-
 .home{
     padding: 15rem;
-    background-image: url(./images/fundo.jpeg);
+    background-image: url(./images/porsche\ home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: auto;
     height: 40vh;
 }
+
+/* about */
 
 .home div{
     padding: 10px;
@@ -67,32 +66,73 @@ header ul li a button{
     font-size: 2rem;
 }
 
+/* articles */
+
 .articles{
-    padding: 15rem;
+    padding: 6rem;
+    
 }
 
 .articles h2{
     text-align: center;
     margin-top: -20px;
+    font-size: 3rem;
 }
 
-
-
-
 .cartoes{
-    padding: 10px;
+    padding: 0px;
     display: flex;
     gap: 2rem;
-
 }
 
 .cartoes div p{
     margin: 50px auto;
     text-align: center;
+    font-size: 2rem;
+}
+
+.porsche911 {
+    height: 25rem;
+    width: 24rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(32, 34, 33);
+    border-radius: 8px;
+}
+
+.macan {
+    height: 25rem;
+    width: 24rem;
+    color: white;
+    text-align: center;
+    background-color:  rgb(32, 34, 33);
+    border-radius: 8px;
+}
+
+.cayenne {
+    height: 25rem;
+    width: 24rem;
+    color: white;
+    text-align: center;
+    background-color: rgb(32, 34, 33);
+    border-radius: 8px;
 }
 
 .cartoes div img{
-    width: 20rem;
-    height: 15rem;
+    width: 24rem;
+    height: 13,5rem;
+    border-radius: 8px;
+}
+
+/* about  */
+
+.about {
+    background-color: rgb(32, 34, 33) ;
+    padding: 0;
+}
+
+.images-about img {
+    width: 45rem ;
+    height: 36rem;
 }
 
