@@ -69,7 +69,7 @@ header ul li a button{
 /* articles */
 
 .articles{
-    padding: 6rem;
+    padding: 10rem;
     
 }
 
@@ -129,10 +129,105 @@ header ul li a button{
 .about {
     background-color: rgb(32, 34, 33) ;
     padding: 0;
+    display: flex;
+    gap: 20px;
+    
 }
 
-.images-about img {
-    width: 45rem ;
+.divImgTres img{
+    width: 45rem;
     height: 36rem;
 }
 
+.divTextTres{
+    width: 40vw;
+    padding: 2rem;
+}
+
+.divTextTres h2 {
+     text-align: center;
+     color: white;
+     font-size: 3rem;
+   
+}
+
+.divTextTres p{
+    flex-wrap: wrap;
+    text-align: justify;
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* subscribe */
+
+.subscribe {
+
+}
+
+.form h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(32, 34, 33);
+}
+
+.form p {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(32, 34, 33);
+}
+
+.form form {
+    size: 3rem;
+    text-align: center;
+    
+}
+
+/* footer */
+
+footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 34, 33) ;
+   
+}
+
+
+footer div nav ul{
+    display: flex;
+}
+
+#divIcon nav ul{
+    gap: 20px;
+}
+#divIcon nav ul li a i{
+    color: white;
+    background-color: gray;
+    padding: 0.6rem;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+#divTextFooter nav ul{
+    gap: 3rem;
+}
+
+#divTextFooter nav ul li a{
+    color: white;
+}
+
+#divTextFolder ul li a button{
+    padding: 10px;
+    color: rgb(32, 34, 33);
+    background-color: rgb(32, 34, 33);
+    border-color: white;
+}
+
+.logofooter {
+    background-color: rgb(32, 34, 33);
+}
+
+.logofoot{
+    align-items: center; 
+}
